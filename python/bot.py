@@ -1,4 +1,3 @@
-
 import discord
 import requests
 import json
@@ -26,5 +25,4 @@ intents = discord.Intents.default()
 intents.message_content = True
 
 client = MyClient(intents=intents)
-
 client.run('My token') # Replace with your own token.
