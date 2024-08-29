@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      li {
+        display: inline;
+      }
+
+      hr {
+        width: 95%;
+        margin: auto;
+      }
+
+      img{
+        margin-left: 50px;
+        border: 3px solid Cyan;
+      }
+
+      figcaption{
+        margin-left: 50px;
+      }
+
+    </style>
+    <title>KFC</title>
+  </head>
+  <body>
+    <header>
+      <img src="https://i.pinimg.com/236x/ee/f8/e2/eef8e2ead284ee3c015bac3a964377f8.jpg" alt="KFC manager" style="width: 200px;" id="header-img">
+      <h1>Kentucky Friend Chicken</h1>
+      <nav>
+        <ul>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#order-form">Order form</a></li>
+        </ul>
+      </nav>
+    </header>
+    <br/>
+    <main>
+      <section id="menu">
+        <h2>Menu</h2>
+        <article>        <!--Item 1-->
+            <figure>
+                <img style="width: 150px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQorDZ1TiMMb2PVKki8R8fiZTMG-F7WUw_hSQFtkH9fz20b0VFmNSYMvH9973t2sz_W3Po&usqp=CAU" alt="Obsidian" />
+                <figcaption>Chicken nuggets with a dip</figcaption>
+            </figure>
+            <br/>
+            <h3>Crazy chicken nuggets</h3>
+            <p>$4 for 12 crazy nuggets, made of our crazy chickens, made by our crazy employers.</p>
+        </article>
+        <br/><hr/><br/>
+        <article>       <!--Item 1-->
+            <figure>
+              <img style="width: 150px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxXllHz0HqNuuBQVtpN2BBlzshJHY9jLmPyTcQMxSW1ozWRQnwji_xNV1mcJEGVs4_CMk&usqp=CAU" alt="Obsidian" />
+              <figcaption>Pieces of chicken</figcaption>
+            </figure>
+            <br/>
+            <h3>Crazy piece of chicken</h3>
+            <p>$12 for 12 pieces of our crazy chicken.</p>
+        </article>
+        <br/><hr/><br/>
+        <article>       <!--Item 1-->
+            <figure>
+              <img style="width: 150px;" src="https://i.pinimg.com/736x/92/c2/eb/92c2eb06ce5c0d2377f1d2451c1ef25c.jpg" alt="Obsidian" />
+              <figcaption>King of the crazy chicken</figcaption>
+            </figure>
+            <br/>
+            <h3>King of the crazy chickens</h3>
+            <p>$15 for 12 crazy nuggets and 12 pieces of ur crazy chicken, made to drive you crazy.</p>
+        </article>
+      <br/>
+      <section id="order-form">
+        <h2>Place Your Order</h2>
+        <form action="">
+            <label for="nuggets">Crazy nuggets: </label><input type="number" id="nuggets" min="0" required>
+            <br><br>
+            <label for="piece">Crazy piece of chicken: </label><input type="number" id="piece" min="0" required>
+            <br><br>
+            <label for="king">King of crazy: </label><input type="number" id="king" required>
+            <br><br>
+            <label>Special requests:</label><br>
+            <textarea maxLength="250"></textarea>
+            <br><br>
+            <input type="submit" value="Go To Checkout">
+        </form>
+      </section>
+    </main>
+    <footer>
+        Made with love by Rian27116 2024
+    </footer>
+  </body>
+</html>
