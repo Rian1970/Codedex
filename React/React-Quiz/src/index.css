@@ -99,6 +99,7 @@ button:hover {
   align-items: center;  
 }
 
+/* Laptop */
 @media (min-width: 426px) {
   .buttons{
     flex-direction: row;
