@@ -2,8 +2,9 @@ import React from "react";
 
 export default function Question({ question, options, onAnswer }) {
   return (
-    <div>
+    <div >
       <h2>{question}</h2>
+      <div className="buttons">
       {options.map(function (option) {
         return (
           <button
@@ -16,6 +17,7 @@ export default function Question({ question, options, onAnswer }) {
           </button>
         );
       })}
+      </div>
     </div>
   );
 }
